@@ -1,0 +1,484 @@
+{
+    "Motherboard": {
+        "Name": "LENOVO LNVNB161216",
+        "Chipset": "Comet Lake",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "CHCN31WW",
+        "Release Date": "2023-03-08",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i7-10510U",
+        "Codename": "Comet Lake-U",
+        "Core Count": "04",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Intel(R) UHD Graphics": {
+            "Manufacturer": "Intel",
+            "Codename": "Coffee Lake",
+            "Device ID": "8086-9B41",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "AUO5F2D": {
+            "Connector Type": "Internal",
+            "Resolution": "1920x1080",
+            "Connected GPU": "Intel(R) UHD Graphics"
+        },
+        "LEN D32q-20B": {
+            "Connector Type": "DP",
+            "Resolution": "2560x1440",
+            "Connected GPU": "Intel(R) UHD Graphics"
+        }
+    },
+    "Network": {
+        "Realtek USB GbE Family Controller": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-8153"
+        },
+        "Realtek RTL8822CE 802.11ac PCIe Adapter": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-C822",
+            "Subsystem ID": "85F7103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP08.PXSX"
+        },
+        "Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-8179"
+        }
+    },
+    "Sound": {
+        "HD Webcam C525": {
+            "Bus Type": "USB",
+            "Device ID": "046D-0826",
+            "Audio Endpoints": [
+                "Webcam Microphone"
+            ]
+        },
+        "Intel\u00ae Smart Sound Technology (Intel\u00ae SST)": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "8086-AE20",
+            "Subsystem ID": "380617AA",
+            "Audio Endpoints": [
+                "Microphone Array"
+            ],
+            "Controller Device ID": "8086-02C8"
+        },
+        "Intel(R) Display Audio": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "8086-280B",
+            "Subsystem ID": "80860101",
+            "Audio Endpoints": [
+                "LEN D32q-20B"
+            ],
+            "Controller Device ID": "8086-02C8"
+        },
+        "Realtek(R) Audio": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "10EC-0285",
+            "Subsystem ID": "17AA3806",
+            "Audio Endpoints": [
+                "Microphone",
+                "Laptop Speakers",
+                "Headphones"
+            ],
+            "Controller Device ID": "8086-02C8"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02ED",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        }
+    },
+    "Input": {
+        "HID-compliant touch pad": {
+            "Bus Type": "ACPI",
+            "Device": "MSFT0021",
+            "Device Type": "I2C HID Device"
+        },
+        "HID-compliant touch screen": {
+            "Bus Type": "ACPI",
+            "Device": "WACF2200",
+            "Device Type": "Wacom Device"
+        },
+        "Standard PS/2 Keyboard": {
+            "Bus Type": "ACPI",
+            "Device": "MSFT0001",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "NVMe SSD Controller 980 (DRAM-less)": {
+            "Bus Type": "PCI",
+            "Device ID": "144D-A809",
+            "Subsystem ID": "A801144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP13.PXSX",
+            "Disk Drives": [
+                "SAMSUNG MZALQ512HALU-000L2"
+            ]
+        }
+    },
+    "Bluetooth": {
+        "Generic Bluetooth Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-B00C"
+        }
+    },
+    "System Devices": {
+        "Intel(R) PCI Express Root Port #13 - 02B4": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02B4",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP13"
+        },
+        "Motherboard resources": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Motherboard resources_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "Motherboard resources_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.URSC"
+        },
+        "Microsoft ACPI-Compliant Embedded Controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_"
+        },
+        "Intel(R) Shared SRAM - 02EF": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02EF",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x2)"
+        },
+        "ACPI Processor Aggregator": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000C",
+            "ACPI Path": "\\_SB.PAGD"
+        },
+        "Intel(R) SPI (flash) Controller - 02A4": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02A4",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x5)"
+        },
+        "Volume Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Intel(R) Dynamic Tuning Manager": {
+            "Bus Type": "ACPI",
+            "Device": "INT3400",
+            "ACPI Path": "\\_SB.IETM"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.SEN2"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#1": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.SEN3"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#2": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.SEN4"
+        },
+        "Microsoft Hypervisor Service": {
+            "Bus Type": "ROOT",
+            "Device": "HVSERVICE"
+        },
+        "Intel(R) Management Engine Interface ": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02E0",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HECI"
+        },
+        "Microsoft Windows Management Interface for ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMI2"
+        },
+        "Microsoft Windows Management Interface for ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMI1"
+        },
+        "Intel(R) Serial IO I2C Host Controller - 02E8": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02E8",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x0)",
+            "ACPI Path": "\\_SB.PCI0.I2C0"
+        },
+        "Microsoft Hyper-V Virtualization Infrastructure Driver": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "High precision event timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Lenovo Yoga Mode Control Device": {
+            "Bus Type": "ACPI",
+            "Device": "YMC2017",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.CYMC"
+        },
+        "ISS Dynamic Bus Enumerator": {
+            "Bus Type": "{DEA5AE2A-D1FD-438A-A091-CBD484788435}",
+            "Device": "ISH_BUS"
+        },
+        "Composite Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Microsoft Virtual Drive Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Detection Verification": {
+            "Bus Type": "{DD8E82AE-334B-49A2-AEAE-AEB0FD5C40DD}",
+            "Device": "DETECTIONVERIFICATION"
+        },
+        "Intel(R) Gaussian Mixture Model - 1911": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1911",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x0)"
+        },
+        "Intel(R) Thermal Subsytem - 02F9": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02F9",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x12,0x0)"
+        },
+        "Intel(R) Host Bridge/DRAM Registers - 9B61": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9B61",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "I/O LPC Controller - 0284 for Intel(R) On-Package Platform Controller Hub": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0284",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "ACPI Lid": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.LID_"
+        },
+        "Motherboard resources_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PRRE"
+        },
+        "Intel(R) PCI Express Root Port #8 - 02BF": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02BF",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP08"
+        },
+        "Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02C8",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.HDAS"
+        },
+        "System timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "Intel(R) SMBus - 02A3": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02A3",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x4)",
+            "ACPI Path": "\\_SB.PCI0.SBUS"
+        },
+        "UMBus Root Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Charge Arbitration Driver": {
+            "Bus Type": "ROOT",
+            "Device": "CAD"
+        },
+        "Microsoft Windows Management Interface for ACPI_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFDE"
+        },
+        "Microsoft Windows Management Interface for ACPI_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFTE"
+        },
+        "PCI Express Root Complex": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "Lenovo ACPI-Compliant Virtual Power Controller": {
+            "Bus Type": "ACPI",
+            "Device": "VPC2004",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.VPC0"
+        },
+        "Microsoft Windows Management Interface for ACPI_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMI4"
+        },
+        "ACPI Power Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Lenovo Notebook ITS Driver": {
+            "Bus Type": "ACPI",
+            "Device": "LIC0001",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.ITSD"
+        },
+        "Intel(R) Integrated Sensor Solution": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02FC",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x13,0x0)",
+            "ACPI Path": "\\_SB.PCI0.ISHD"
+        },
+        "Microsoft Windows Management Interface for ACPI_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMIP"
+        },
+        "Microsoft UEFI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "8086-0222",
+            "Subsystem ID": "380617AA"
+        },
+        "Motherboard resources_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SRRE"
+        },
+        "ACPI Fixed Feature Button": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "ACPI Wake Alarm": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000E",
+            "ACPI Path": "\\_SB.AWAC"
+        },
+        "Intel(R) Power Engine Plug-in": {
+            "Bus Type": "ACPI",
+            "Device": "INT33A1",
+            "ACPI Path": "\\_SB.PEPD"
+        },
+        "Motherboard resources_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.IOTR"
+        },
+        "NDIS Virtual Network Adapter Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Intel(R) Serial IO I2C Host Controller - 02E9": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-02E9",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x1)",
+            "ACPI Path": "\\_SB.PCI0.I2C1"
+        },
+        "Programmable interrupt controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Microsoft Windows Management Interface for ACPI_#6": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMTF"
+        },
+        "Motherboard resources_#6": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "Plug and Play Software Device Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        },
+        "Intel(R) Serial IO GPIO Host Controller - INT34BB": {
+            "Bus Type": "ACPI",
+            "Device": "INT34BB",
+            "ACPI Path": "\\_SB.PCI0.GPI0"
+        },
+        "Intel(R) Dynamic Tuning Processor Participant": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1903",
+            "Subsystem ID": "380617AA",
+            "PCI Path": "PciRoot(0x0)/Pci(0x4,0x0)",
+            "ACPI Path": "\\_SB.PCI0.B0D4"
+        }
+    }
+}
