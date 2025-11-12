@@ -22,7 +22,7 @@ I have added the hardware information of my current device in the Report.json fi
 
 | Component | Model |
 | :--- | :--- |
-| **CPU** | 10th Gen Intel Core i5-10210U (Comet Lake-U) |
+| **CPU** | 10th Gen Intel Core i7-10210U (Comet Lake-U) |
 | **iGPU** | Intel UHD Graphics |
 | **Audio** | Realtek ALC285 |
 | **Trackpad** | I2C HID Trackpad |
